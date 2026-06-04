@@ -1,0 +1,84 @@
+body {
+    height: 100%;
+    font-family: Tai Heritage Pro;
+    font-size: 20px;
+}
+.nav-item {
+    width: 150px;
+    font-size: 30px;
+}
+.img_anime{
+    width: 300px;
+    float: right;
+    margin: 10%;
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 1s, 1s;
+}
+#video {
+    width: 100%;
+}
+
+#slide-bar{
+    text-align: center;
+}
+
+.img_log1{
+    width: 300px;
+}
+.img_log2{
+    width: 300px;
+}
+.row{
+    margin: 50px;
+}
+h1{
+    font-family: FreeMono;
+}
+
+.fontsize{
+    width: 30px;
+    float: left;
+}
+.affichage_text {
+    border: 2px solid black;
+    height: 40vh;
+    padding: 10px;
+}
+.affichage {
+    border: 2px solid black;
+    height: 90vh;
+    padding: 10px;
+}
+.nav-link {
+    transition: 0.5s;
+}
+.nav-link:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.fakeimage {
+    width: 100%;
+    height: 40vh;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+#partie_3 {
+    text-align: center;
+}
+#toastbtn {
+    font-size: 2rem;
+    margin-right: -40%;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

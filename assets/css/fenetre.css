@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+    background-color: rgb(252, 254, 255);
+    font-family: Tai Heritage Pro;
+}
+.nav-item {
+    width: 150px;
+    font-size: 30px;
+}
+
+
+.nav-link {
+    transition: 0.5s;
+}
+.nav-link:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.img_edit, .img_sup, .img_pdf {
+    width: 28px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.img_edit:hover, .img_sup:hover {
+    margin: -7px;
+    width: 35px;
+}
+.img_pdf {
+    width: 28px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.img_pdf:hover{
+    width: 33px;
+    margin: -5px -5px -1.4px -5px;
+}
+.hover_tr:hover{
+    background-color: antiquewhite;
+}
+.img_ajo{
+    width: 60px;
+    transition: 0.5s;
+}
+.img_ajo:hover{
+    width: 65px;
+    margin-right: -5px;
+    /* margin-bottom: 25px; */
+}
+.img_ajo_btn {
+    background: none;
+    border: none;
+}
+
+#slide-bar{
+    text-align: center;
+}
+
+.fontsize{
+    width: 30px;
+    float: left;
+}
+.img_edit_btn{
+    border: none;
+    background: none;
+}
+
+.affichage {
+    border: 3px solid black;
+    height: 80vh;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+.affichageRecette {
+    border: 3px solid black;
+    height: 65vh;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+.affichage_colis {
+    border: 3px solid black;
+    height: 60vh;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+.affichage_recu {
+    border: 3px solid black;
+    height: 70vh;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+
+.boutonRecette {
+    text-align: center;
+    margin-left: 49.5%;
+    font-size: 20px;
+    margin-top: 3%;
+    color: white;
+    padding-bottom: 20px;
+    background-color: #1b43bc;
+    border-radius: 10px;
+    box-shadow: 7px 5px 7px rgb(0, 0, 0);
+
+    
+}
+
